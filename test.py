@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 x_axis = [i for i in range(1, 11)]
 count1 = 0
 count10 = 0
-df2 = pd.read_csv("startElec.csv")
+df2 = pd.read_csv("new_data.csv")
 for j in range (36, 176, 20):
 
     y_axis = [0*i for i in range(1, 11)]
